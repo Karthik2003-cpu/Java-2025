@@ -5,7 +5,7 @@ public class Main {
 
          Scanner sc = new Scanner(System.in);
 //        Random rd = new Random();
-//
+//        Random class to create random objects
 //        boolean coin;
 //        coin = rd.nextBoolean();
 //        if(coin){
