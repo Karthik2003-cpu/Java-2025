@@ -32,8 +32,13 @@ public class TwoDArray {
 //            System.out.println();
 //        }
 
-        for (int row = 0; row < arr2d.length; row++) {
-            System.out.println(Arrays.toString(arr2d[row])); //each element of a row is an array itself, that is why we can print it using Arrays.toString().
+//        for (int row = 0; row < arr2d.length; row++) {
+//            System.out.println(Arrays.toString(arr2d[row])); //each element of a row is an array itself, that is why we can print it using Arrays.toString().
+//        }
+
+        for(int[] a : arr2d) //enhanced for loop also called for each loop
+        {
+            System.out.println(Arrays.toString(a));
         }
         sc.close();
     }
